@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 
 @Entity
-@Table (name = "tb_sales")
+@Table(name = "tb_sales")
 public class Sale {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,7 +16,7 @@ public class Sale {
     private double amount;
     private LocalDate date;
 
-    public Sale(){
+    public Sale() {
 
     }
 
