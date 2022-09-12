@@ -1,6 +1,8 @@
 import logo from '../../../assets/img/logoCabecalho.svg'
 import './styles.css'
 
+
+
 function Header() {
     return (
         <header>
